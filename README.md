@@ -1,12 +1,37 @@
-# CogVideo & CogVideoX
-
-[中文阅读](./README_zh.md)
-
-[日本語で読む](./README_ja.md)
+# Video-Making &bull; CogVideoX Studio
 
 <div align="center">
-<img src=resources/logo.svg width="50%"/>
+
+[![Live Web Studio](https://img.shields.io/badge/🌐_Live_Web_Studio-GitHub_Pages-6366f1?style=for-the-badge)](https://mdsajid-ui.github.io/Video-Making/)
+[![Open In Colab](https://img.shields.io/badge/🚀_Run_on_Colab-Free_T4_GPU-f97316?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/mdsajid-ui/Video-Making/blob/main/CogVideoX_Video_Making.ipynb)
+[![Hugging Face Space](https://img.shields.io/badge/🤗_HuggingFace-CogVideoX--5B-ffd21e?style=for-the-badge)](https://huggingface.co/spaces/THUDM/CogVideoX-5B)
+[![GitHub Stars](https://img.shields.io/github/stars/mdsajid-ui/Video-Making?style=for-the-badge)](https://github.com/mdsajid-ui/Video-Making)
+
+<img src="resources/logo.svg" width="45%" alt="Video Making Logo"/>
+
+### **Open-Source AI Video Generation &amp; In-Browser Video Studio**
+Create cinematic AI videos from text, edit captions and color grading, and export directly in your browser or run CogVideoX on free cloud GPUs.
+
+[🌐 **Launch Hosted Web Studio**](https://mdsajid-ui.github.io/Video-Making/) &bull; [🚀 **Open Google Colab Notebook**](https://colab.research.google.com/github/mdsajid-ui/Video-Making/blob/main/CogVideoX_Video_Making.ipynb) &bull; [中文阅读](./README_zh.md) &bull; [日本語で読む](./README_ja.md)
+
 </div>
+
+---
+
+## 🚀 How to Host on GitHub Pages
+
+This repository is pre-configured for **GitHub Pages**. To make your live web app accessible at `https://mdsajid-ui.github.io/Video-Making/`:
+
+1. On your GitHub repository page (`https://github.com/mdsajid-ui/Video-Making`), click **Settings** (top right tab).
+2. On the left sidebar, click **Pages** (under the "Code and automation" section).
+3. Under **Build and deployment** &gt; **Source**:
+   - Choose **GitHub Actions** (the included `.github/workflows/deploy-pages.yml` will automatically build and publish).
+   - *Or* choose **Deploy from a branch** &rarr; select branch **`main`** &rarr; folder **`/ (root)`** &rarr; click **Save**.
+4. Within 1-2 minutes, your website is live at:  
+   👉 **`https://mdsajid-ui.github.io/Video-Making/`**
+
+---
+
 <p align="center">
 Experience the CogVideoX-5B model online at <a href="https://huggingface.co/spaces/THUDM/CogVideoX-5B" target="_blank"> 🤗 Huggingface Space</a> or <a href="https://modelscope.cn/studios/ZhipuAI/CogVideoX-5b-demo" target="_blank"> 🤖 ModelScope Space</a>
 </p>
